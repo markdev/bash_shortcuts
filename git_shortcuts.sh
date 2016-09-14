@@ -1,8 +1,12 @@
 alias gi='git init'
 alias gl='git log'
+alias glgod='git log --graph --oneline --decorate'
 alias gs='git status'
 alias ga='git add'
+alias gb='git branch'
+alias gch='git checkout'
 alias gcm='git commit -m'
+alias gca='git commit --amend'
 alias glom='git pull origin master'
 alias gpom='git push origin master'
 

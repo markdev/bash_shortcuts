@@ -12,3 +12,6 @@ export PATH=$PATH:/usr/local/bin
 # from laravel installation
 export PATH="~/.composer/vendor/bin:$PATH"
 
+# make php5.6 default php
+export PATH="$(brew --prefix homebrew/php/php56)/bin:$PATH"
+
