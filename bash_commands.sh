@@ -15,3 +15,8 @@ export PATH="~/.composer/vendor/bin:$PATH"
 # make php5.6 default php
 export PATH="$(brew --prefix homebrew/php/php56)/bin:$PATH"
 
+# mysql
+export PATH=${PATH}:/usr/local/mysql/bin/
+
+# laravel shortcuts
+alias pa='php artisan'
