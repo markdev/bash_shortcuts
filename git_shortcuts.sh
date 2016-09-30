@@ -1,4 +1,3 @@
-alias gi='git init'
 alias gl='git log'
 alias glgod='git log --graph --oneline --decorate'
 alias gs='git status'
