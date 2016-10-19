@@ -6,3 +6,4 @@ alias dps="docker ps -a"
 alias db="docker build"
 alias dr="docker run -ti"
 
+alias dkillimg="docker rmi -f $(docker images -a -q)" 
