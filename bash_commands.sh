@@ -18,6 +18,3 @@ export PATH="$(brew --prefix homebrew/php/php56)/bin:$PATH"
 # mysql
 export PATH=${PATH}:/usr/local/mysql/bin/
 
-# laravel shortcuts
-alias art='php artisan'
-alias phpunit='vendor/bin/phpunit'
